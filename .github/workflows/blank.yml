@@ -32,7 +32,6 @@ jobs:
           sparse-checkout: |
             scripts/list_missing_entries.py
 
-      - name: Instalar dependencias
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: echo Hello, world!
